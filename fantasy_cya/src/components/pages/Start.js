@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Character from '../pages/Character';
+import { Link } from 'react-router-dom';
+import Button from "../Button/Button";
 
 function Start() {
   return (
-      <Router>
     <div className="container">
       <div className="jumbotron">
         <h1>Fantasy Choose Your Own Adventure!</h1>
           <p>Click Begin to start your adventure.</p>
-          <Route path="/character" component={Character}>
-          Begin Button goes here
-          </Route>
+            <Link to="/character"
+              className={window.location.pathname === "/character"}>
+                <Button>
+                  Begin
+                </Button>
+            </Link>
       </div>
     </div>
-    </Router>
   );
 }
 

@@ -1,10 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Button from "../Button/Button";
 
 function Character() {
   return (
     <div>
-        
+        Character Selection
+
+        Who are you?
+
+        <Button>
+          Warrior
+        </Button>
+
+        <Button>
+          Wizard
+        </Button>
+
+        <Button>
+          Rogue
+        </Button>
     </div>
   );
 }
