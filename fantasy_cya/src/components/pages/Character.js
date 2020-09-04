@@ -9,17 +9,23 @@ function Character() {
 
         Who are you?
 
-        <Button>
-          Warrior
-        </Button>
+        <Link to="/warriorStart" className={window.location.pathname === "/warriorStart"}>
+          <Button>
+            Warrior
+          </Button>
+        </Link>
 
-        <Button>
-          Wizard
-        </Button>
+        <Link to="/rogueStart" className={window.location.pathname === "/rogueStart"}>
+          <Button>
+            Rogue
+          </Button>
+        </Link>
 
-        <Button>
-          Rogue
-        </Button>
+        <Link to="/wizardStart" className={window.location.pathname === "/wizardStart"}>
+          <Button>
+            Wizard
+          </Button>
+        </Link>
     </div>
   );
 }
