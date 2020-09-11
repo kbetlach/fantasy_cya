@@ -4,10 +4,10 @@ import Button from "../Button/Button";
 
 function Character() {
   return (
-    <div>
-        Character Selection
-
-        Who are you?
+    <div className="container">
+      <div className="jumbotron">
+        <h1 className="text-center">Character Selection</h1>
+        <h2 className="text-center">Who are you?</h2>
 
         <Link to="/warriorStart" className={window.location.pathname === "/warriorStart"}>
           <Button>
@@ -26,6 +26,8 @@ function Character() {
             Wizard
           </Button>
         </Link>
+
+        </div>
     </div>
   );
 }

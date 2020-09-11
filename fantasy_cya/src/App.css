@@ -1,6 +1,7 @@
 body {
     background: url('assets/images/start.jpg');
     background-attachment: fixed;
+    background-size: auto;
     font-family: 'Kaushan Script', cursive;
 }
 

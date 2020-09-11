@@ -1,9 +1,10 @@
 import React from 'react';
+import './button.css';
 
 function Button(props) {
   return (
-    <div>
-        <button type="button" class="btn btn-primary" {...props}>
+    <div class="col-md-12 text-center">
+        <button type="button" class="text-center" {...props}>
         </button>
     </div>
   );
