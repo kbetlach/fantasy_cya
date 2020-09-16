@@ -7,7 +7,7 @@ function WizardStart() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1 className="text-center">You are the Wizard</h1>
+        <h1 className="text-center">You are the Wizard.</h1>
           <h2 className="text-center">You are wise, and have a deep knowledge of magic and the arcane.</h2>
             <h3 className="text-center">Hit Points: 6</h3>
           

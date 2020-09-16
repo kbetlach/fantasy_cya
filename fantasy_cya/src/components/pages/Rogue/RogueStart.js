@@ -7,7 +7,7 @@ function RogueStart() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1 className="text-center">You are the Rogue</h1>
+        <h1 className="text-center">You are the Rogue.</h1>
           <h2 className="text-center">You are stealthy, and charismatic.</h2>
             <h3 className="text-center">Hit Points: 8</h3>
           

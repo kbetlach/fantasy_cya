@@ -7,7 +7,7 @@ function WarriorStart() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1 className="text-center">You are the Warrior</h1>
+        <h1 className="text-center">You are the Warrior.</h1>
           <h2 className="text-center">You are hearty, and a capable combatant.</h2>
             <h3 className="text-center">Hit Points: 10</h3>
           
