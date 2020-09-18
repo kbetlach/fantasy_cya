@@ -11,8 +11,8 @@ function RogueStart() {
           <h2 className="text-center">You are stealthy, and charismatic.</h2>
             <h3 className="text-center">Hit Points: 8</h3>
           
-            <Link to="/character"
-              className={window.location.pathname === "/character"}>
+            <Link to="/rogueBranchOne"
+              className={window.location.pathname === "/rogueBranchOne"}>
                 <Button>
                   Begin Your Adventure
                 </Button>
