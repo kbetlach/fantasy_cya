@@ -7,6 +7,7 @@ import RogueStart from "../src/components/pages/Rogue/RogueStart";
 import WarriorStart from "../src/components/pages/Warrior/WarriorStart";
 import WizardStart from "../src/components/pages/Wizard/WizardStart";
 import RogueBranchOne from "../src/components/pages/Rogue/Branches/RogueBranchOne";
+import RogueOne from "../src/components/pages/Rogue/Seeds/RogueOne";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/warriorStart" component={WarriorStart} />
         <Route exact path="/wizardStart" component={WizardStart} />
         <Route exact path="/rogueBranchOne" component={RogueBranchOne} />
+        <Route exact path="/rogueOne" component={RogueOne} />
         </div>
     </Router>
   );
